@@ -1,0 +1,6 @@
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\ExciteBussinessLogic.dll.config
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\ExciteBussinessLogic.dll
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\ExciteBussinessLogic.pdb
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\obj\Debug\ExciteBussinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\obj\Debug\ExciteBussinessLogic.dll
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\obj\Debug\ExciteBussinessLogic.pdb

@@ -1,2 +1,8 @@
-C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\bin\Debug\ExciteModels.exe.config
 C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\obj\Debug\ExciteModels.csprojResolveAssemblyReference.cache
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\bin\Debug\ExciteModels.dll.config
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\bin\Debug\ExciteModels.dll
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\bin\Debug\ExciteModels.pdb
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\bin\Debug\EntityFramework.dll
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\bin\Debug\EntityFramework.xml
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\obj\Debug\ExciteModels.dll
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\obj\Debug\ExciteModels.pdb

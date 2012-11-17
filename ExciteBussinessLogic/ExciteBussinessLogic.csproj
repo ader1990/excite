@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EAA4A3DD-CA5F-434C-B013-9F5AB9352E52}</ProjectGuid>
+    <ProjectGuid>{750B4E19-5A05-4CD4-8D20-E186F87B591B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RMA.ExciteModels</RootNamespace>
-    <AssemblyName>ExciteModels</AssemblyName>
+    <RootNamespace>RMA.ExciteBussinessLogic</RootNamespace>
+    <AssemblyName>ExciteBussinessLogic</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -36,19 +36,6 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="ExciteContext.cs" />
-    <Compile Include="UserProfile.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Data.Entity" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
