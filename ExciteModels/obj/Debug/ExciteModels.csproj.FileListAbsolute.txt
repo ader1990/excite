@@ -1,0 +1,2 @@
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\bin\Debug\ExciteModels.exe.config
+C:\Users\adi\Desktop\Pcbe\excite\ExciteModels\obj\Debug\ExciteModels.csprojResolveAssemblyReference.cache

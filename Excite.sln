@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excite", "Excite\Excite.csproj", "{EF36E593-A53B-4C9C-A903-0B81A9EADBBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExciteModels", "ExciteModels\ExciteModels.csproj", "{EAA4A3DD-CA5F-434C-B013-9F5AB9352E52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{EF36E593-A53B-4C9C-A903-0B81A9EADBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF36E593-A53B-4C9C-A903-0B81A9EADBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF36E593-A53B-4C9C-A903-0B81A9EADBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA4A3DD-CA5F-434C-B013-9F5AB9352E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA4A3DD-CA5F-434C-B013-9F5AB9352E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA4A3DD-CA5F-434C-B013-9F5AB9352E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA4A3DD-CA5F-434C-B013-9F5AB9352E52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
