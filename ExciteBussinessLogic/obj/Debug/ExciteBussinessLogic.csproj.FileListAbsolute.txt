@@ -4,3 +4,7 @@ C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\ExciteBussinessL
 C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\obj\Debug\ExciteBussinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\obj\Debug\ExciteBussinessLogic.dll
 C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\obj\Debug\ExciteBussinessLogic.pdb
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\ExciteModels.dll
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\ExciteModels.pdb
+C:\Users\adi\Desktop\Pcbe\excite\ExciteBussinessLogic\bin\Debug\EntityFramework.xml

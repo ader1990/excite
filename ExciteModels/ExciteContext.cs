@@ -13,8 +13,9 @@ namespace RMA.ExciteModels
             : base("ExciteConnection")
         {
         }
-
+        
         public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<Biker> Bikers { get; set; }
     }
 
   

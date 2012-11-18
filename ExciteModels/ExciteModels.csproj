@@ -39,7 +39,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bike.cs" />
+    <Compile Include="Biker.cs" />
     <Compile Include="ExciteContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="UserProfile.cs" />
   </ItemGroup>
   <ItemGroup>

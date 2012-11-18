@@ -5,6 +5,7 @@ using System.Threading;
 using System.Web.Mvc;
 using WebMatrix.WebData;
 using Excite.Models;
+using RMA.ExciteModels;
 
 namespace Excite.Filters
 {
@@ -25,11 +26,11 @@ namespace Excite.Filters
         {
             public SimpleMembershipInitializer()
             {
-                Database.SetInitializer<UsersContext>(null);
+                Database.SetInitializer<ExciteContext>(null);
 
                 try
                 {
-                    using (var context = new UsersContext())
+                    using (var context = new ExciteContext())
                     {
                         if (!context.Database.Exists())
                         {

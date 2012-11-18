@@ -10,6 +10,7 @@ using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using Excite.Filters;
 using Excite.Models;
+using RMA.ExciteBussinessLogic;
 
 namespace Excite.Controllers
 {
@@ -17,6 +18,12 @@ namespace Excite.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
+        
+        public readonly IExciteService _service;
+        public AccountController()
+        {
+            _service = new ExciteService ();
+        }
         //
         // GET: /Account/Login
 
@@ -263,16 +270,8 @@ namespace Excite.Controllers
             if (ModelState.IsValid)
             {
                 // Insert a new user into the database
-                using (UsersContext db = new UsersContext())
-                {
-                    UserProfile user = db.UserProfiles.FirstOrDefault(u => u.UserName.ToLower() == model.UserName.ToLower());
-                    // Check if user already exists
-                    if (user == null)
-                    {
-                        // Insert name into the profile table
-                        db.UserProfiles.Add(new UserProfile { UserName = model.UserName });
-                        db.SaveChanges();
-
+               
+                if(_service.AddUser(model.UserName)){
                         OAuthWebSecurity.CreateOrUpdateAccount(provider, providerUserId, model.UserName);
                         OAuthWebSecurity.Login(provider, providerUserId, createPersistentCookie: false);
 
@@ -282,7 +281,7 @@ namespace Excite.Controllers
                     {
                         ModelState.AddModelError("UserName", "User name already exists. Please enter a different user name.");
                     }
-                }
+                
             }
 
             ViewBag.ProviderDisplayName = OAuthWebSecurity.GetOAuthClientData(provider).DisplayName;
